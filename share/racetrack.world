@@ -5,13 +5,13 @@ floorplan
 ( 
   name "race"
   bitmap "racetrack.png"
-  size [55.0 65.0 1.0]
+  size [55.000 65.000 1.000]
 )
 
 window
 ( 
-  size [ 700 800 ] 
-  scale 10.0 
+  size [ 1600 851 ] 
+  scale 12.100 
 )
 
 robot( pose [ -24.6 -7.6 0 0 ] )

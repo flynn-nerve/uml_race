@@ -4,4 +4,5 @@
           args="$(find uml_race)/share/racetrack.world" />
     <node name="referee" pkg="uml_race" type="referee.py" required="true" ns="robot"
           output="screen" />
+    <node name="controller" pkg="uml_race" type="race_controller" output="screen" />
 </launch>
